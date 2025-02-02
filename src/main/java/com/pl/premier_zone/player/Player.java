@@ -5,6 +5,11 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+/**
+ * Represents a Player entity with statistical attributes related to their performance and details.
+ * This class is mapped to the database table "player_statistic" using JPA annotations.
+ * The player's name serves as the primary identifier and must be unique.
+ */
 @Entity
 @Table(name = "player_statistic")
 public class Player {
